@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/hello")
 public class HelloAction {
 
+    //这是同事修改过得
     @RequestMapping("/boot")
     @ResponseBody
     public String boot() throws Exception{
